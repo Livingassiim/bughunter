@@ -10,6 +10,7 @@ void main() {
 
 void withdraw(double amount) {
     balance = balance - amount;
+    IO.println();
 }
 
 void deposit(double amount) {
